@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Feb  6 23:17:10 2021
+
+@author: oscarliu
+"""
+
+import pandas as pd
+df = pd.read_csv("netflix_titles.csv")
+month_order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][::-1]
+print(month_order)
