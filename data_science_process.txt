@@ -1,0 +1,42 @@
+Data science process:
+                                            ####DATA SCIENCE####
+1. What is the problem/objective of this project?(What do you want to answer? What is the scientific goal?)
+    -Brainstorming ideas
+    -Scientific methods/questions to formulate the objective
+
+2. Form a hypothesis and determine the dataset needed(What sample size is needed? What data do we need to prove/reject the hypothesis?)
+    -Form a intuitive answer(hypothesis)
+    -Think of the dataset needed and what is the best methods to acquire the dataset.
+    
+                                           #### DATA ENGINEERING ####
+3. Collect the dataset(How are the data sampled? Which data are relevant? Are there any privacy issues?)
+    -Web Scraping/Download from API/ pay for it/ create yourself/ open-source data
+                
+                                           #### DATA ANALYSIS ####
+4. Clean and organize the data(Is the data readable? Get rid of the unnecessary data. How to process the missing values? How to manage the outlier? 
+    -Data wrangling(pandas,numpy,scipy,etc)
+    -Tidy Data format
+    -Think how to deal with the outlier and missing values
+    
+    
+5. Explore the data(descriptive statistics & visualization) (Plot the data. Are there any anomaly? Are there any trend/pattern?
+    -Summary statistics for numerical data
+    -Data visualization(EDA) using plotly,matplotlib etc
+    -Notice the trend/pattern/anomaly and make a statement of it
+    -Probably can form a hypothesis to be tested by model as well
+    
+                                            ### MACHINE LEARNING ####
+6. Build model to analyze data/predict data(Build a model. Fit a model. Validate a model)
+    -Feature Selection and Feature Engineering(Which features are the best, how to transform them so that they can be used by model)
+    -Which model is suitable? What is the pros and cons of different model? Select the best model
+    -Fit a model, validate and improve the model
+    
+                                           #### DATA SCIENCE #####
+7. Communicate the findings(What did we learn? Did the results make sense? Can we tell a story?)
+    -What is the conclusion of this project/experiment/research?
+    -What is the important findings?
+    -What can be improved? What is the next steps?
+    
+                                            #### DATA SCIENCE #####
+8. Ensure that your process and findings are reproducible.
+    
